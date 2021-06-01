@@ -1,0 +1,47 @@
+.container{
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigDiv{
+    width: 100%;
+    height: 300px;
+    background: rgb(211, 69, 69);
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.div1, .div2, .div3{
+    position: relative;
+}
+.nocolors{
+    filter: grayscale(100%);
+}
+.divForColPic1, .divForColPic2, .divForColPic3{
+    overflow: hidden;
+    width: 0px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+}
+.focus-pocus{
+    width: 300px;
+    height: 100%;
+    border: 3px solid rgb(255, 217, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.black1-2, .black2-2, .black3-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: 10;
+    overflow: hidden;
+}
